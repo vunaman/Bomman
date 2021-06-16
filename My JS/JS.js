@@ -26,7 +26,7 @@ function SCROLL(){
 	
 	for(var i = 1; i <= 10; i++){
 		$("#scroll").append('<img class="img" id="img'+(20+i)+'"/>');
-		$("#img"+(20+i)).attr("src","Pic/item"+(20+i)+".PNG");
+		$("#img"+(20+i)).attr("src","Pic/item"+(20+i)+".png");
 		$("#img"+(20+i)).css("margin-left",2375+125*(i));
 	}
 	
